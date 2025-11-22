@@ -18,8 +18,8 @@ To write a Python program to create and print a list where the values are square
 
 ### PROGRAM
 ```
-#Reg.No:212223060107
-#Name: Joyce Priscilla R
+#Reg.No:212223060285
+#Name: Tejashree J
 
 def printValues(N):
     result = [i**2 for i in range(1, N)]

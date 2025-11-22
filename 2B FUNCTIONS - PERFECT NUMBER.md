@@ -1,32 +1,38 @@
 # Exp.No:2b  
-## FUNCTIONS - PERFECT NUMBER
+## FUNCTIONS - SQUARE OF NUMBER
 
 ### AIM  
-To write a Python program to check if a number is a Perfect number using the concept of functions.
+To write a Python program to create and print a list where the values are square of numbers between 1 and N.
 
----
+
 
 ### ALGORITHM
 
-1. Begin the program.  
-2. Read the number `n` from the user using `input()`.  
-3. Convert the input to an integer.  
-4. Define the function `perfectNumber(n)` with the following steps:  
-    - Initialize a variable `factor_sum` to 0.  
-    - Iterate through all numbers from 1 to `n//2` (as divisors of a number can't be greater than half of it).  
-    - If a number `i` divides `n` perfectly (i.e., `n % i == 0`), add `i` to `factor_sum`.  
-    - If `factor_sum` is equal to `n`, then print the number is a perfect number. Otherwise, print it's not a perfect number.  
-5. Terminate the program.
+1.Input N.
+2.Generate squares of numbers from 1 to N-1.
+3.Store them in a list.
+4.Print the list.
+4.End.
 
----
+
 
 ### PROGRAM
 ```
-#Reg.No:
-#Name:
-#Add your Code Here
+#Reg.No:212223060107
+#Name: Joyce Priscilla R
+
+def printValues(N):
+    result = [i**2 for i in range(1, N)]
+    print(result)
+
 
 ```
 ### OUTPUT
 
+<img width="1422" height="160" alt="image" src="https://github.com/user-attachments/assets/c15e1da4-4a4c-4feb-8620-c8a78ef209cb" />
+
+
 ### RESULT
+
+Thus, the python code is written and executed successfully.
+
